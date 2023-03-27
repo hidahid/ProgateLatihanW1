@@ -338,6 +338,88 @@ footer {
   main .contactbox .emailbox {
     width: 300px;
   }
+  
+  @media (max-width: 360px) {
+  .logoheader {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  .menuheader {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+
+  main .portfolio h1 {
+    margin-top: 70px;
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+
+  main .project .icon {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .project .icon .icon1 p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  main .project .icon .icon2 p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  main .project .icon .icon3 p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  main .project .icon .icon1 img {
+    width: 200px;
+  }
+  main .project .icon .icon2 img {
+    width: 200px;
+  }
+  main .project .icon .icon3 img {
+    width: 200px;
+  }
+
+  main .contactbox .emailbox {
+    width: 300px;
+  }
+  main .contactbox .messagebox {
+    width: 300px;
+  }
+  main .contactbox .submitbox {
+    width: 200px;
+  }
+
+  .logofooter {
+    float: left;
+    margin-left: 20px;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+  .listfooter {
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .listfooter a {
+    display: grid;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+  }
+}
   main .contactbox .messagebox {
     width: 300px;
   }
